@@ -47,7 +47,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.ZOCWbO9IYvBf9WyR'
-  - name: Blinded
+  - name: Accecato
     type: rule
     title:
       show: true
@@ -55,9 +55,9 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A blinded creature can’t see and automatically fails any ability
-        check that requires sight</li><li>Attack rolls against the creature have
-        advantage, and the creature’s attack rolls have disadvantage.</li></ul>
+        <ul>
+          <li>Una creatura accecata non è in grado di vedere e fallisce automaticamente qualsiasi prova di caratteristica che richieda l'uso della vista</li>
+          <li>I tiri per colpire contro la creatura dispongono di vantaggio, mentre i tiri per colpire della creatura subiscono svantaggio.</li></ul>
     _id: 0b8N4FymGGfbZGpJ
     image: {}
     video:
@@ -80,7 +80,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.0b8N4FymGGfbZGpJ'
-  - name: Charmed
+  - name: Affascinato
     type: rule
     title:
       show: true
@@ -88,10 +88,9 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A charmed creature can’t attack the charmer or target the
-        charmer with harmful abilities or magical effects.</li><li>The charmer
-        has advantage on any ability check to interact socially with the
-        creature.</li></ul>
+        <ul>
+          <li>Una creatura affascinata non pub attaccare o bersagliare colui che l'ha affascinata con capacità o effetti magici dannosi.</li>
+          <li>Colui che ha affascinato la creatura dispone di vantaggio a qualsiasi prova di caratteristica effettuata per interagire socialmente con essa.</li></ul>
     _id: zZaEBrKkr66OWJvD
     image: {}
     video:
@@ -114,7 +113,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.zZaEBrKkr66OWJvD'
-  - name: Deafened
+  - name: Assordato
     type: rule
     title:
       show: true
@@ -122,8 +121,7 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A deafened creature can’t hear and automatically fails any
-        ability check that requires hearing.</li></ul>
+        <ul><li>Una creatura assordata non è in grado di sentire e fallisce automaticamente qualsiasi prova di caratteristica che richieda l'uso dell'udito.</li></ul>
     _id: 6G8JSjhn701cBITY
     image: {}
     video:
@@ -146,7 +144,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.6G8JSjhn701cBITY'
-  - name: Frightened
+  - name: Spaventato
     type: rule
     title:
       show: true
@@ -154,10 +152,8 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A frightened creature has disadvantage on ability checks and
-        attack rolls while the source of its fear is within line of
-        sight.</li><li>The creature can’t willingly move closer to the source of
-        its fear.</li></ul>
+        <ul><li>Una creatura spaventata subisce svantaggio alle prove di caratteristica e ai tiri per colpire finché la fonte della sua paura rimane entro linea di vista.</li>
+        <li>La creatura non può muoversi per avvicinarsi volontariamente alla fonte della sua paura.</li></ul>
     _id: oreoyaFKnvZCrgij
     image: {}
     video:
@@ -180,7 +176,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.oreoyaFKnvZCrgij'
-  - name: Grappled
+  - name: Afferrato
     type: rule
     title:
       show: true
@@ -188,12 +184,11 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A grappled creature’s speed becomes 0, and it can’t benefit from
-        any bonus to its speed.</li><li>The condition ends if the grappler is
-        @UUID[.TpkZgLfxCmSndmpb]{Incapacitated}.</li><li>The condition also ends
-        if an effect removes the grappled creature from the reach of the
-        grappler or grappling effect, such as when a creature is hurled away by
-        the thunderwave spell.</li></ul>
+        <ul>
+          <li>La velocità di una creatura afferrata diventa 0 e non può beneficiare di alcun bonus alla velocità.</li>
+          <li>La condizione termina se il lottatore che ha afferrato la creatura è @UUID[.TpkZgLfxCmSndmpb]{Incapacitato}.</li>
+          <li>La condizione termina anche se un effetto rimuove la creatura afferrata dalla portata del lottatore che l'ha afferrata o dall'effetto afferrante, come per esempio
+          quando una creatura viene scagliata via dall'incantesimo <i>onda tonante</i>.</li></ul>
       markdown: ''
     _id: gYDAhd02ryUmtwZn
     image: {}
@@ -217,7 +212,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.gYDAhd02ryUmtwZn'
-  - name: Incapacitated
+  - name: Incapacitato
     type: rule
     title:
       show: true
@@ -225,8 +220,7 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>An incapacitated creature can’t take actions or
-        reactions.</li></ul>
+        <ul><li>Una creatura incapacitata non può effettuare azioni o reazioni.</li></ul>
     _id: TpkZgLfxCmSndmpb
     image: {}
     video:
@@ -249,7 +243,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.TpkZgLfxCmSndmpb'
-  - name: Invisible
+  - name: Invisibile
     type: rule
     title:
       show: true
@@ -257,12 +251,11 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>An invisible creature is impossible to see without the aid of
-        magic or a special sense. For the purpose of hiding, the creature is
-        heavily obscured. The creature's location can be detected by any noise
-        it makes or any tracks it leaves.</li><li>Attack rolls against the
-        creature have disadvantage, and the creature's attack rolls have
-        advantage.</li></ul>
+        <ul>
+          <li>Una creatura invisibile è impossibile da vedere senza l'aiuto della magia o di sensi speciali.
+          Agli effetti del nascondersi, una creatura invisibile è considerata pesantemente oscurata.
+          L'ubicazione della creatura può essere intuita dai rumori che emette o dalle tracce che lascia.</li>
+          <li>I tiri per colpire contro la creatura subiscono svantaggio, mentre i tiri per colpire della creatura ottengono vantaggio.</li></ul>
     _id: 3UU5GCTVeRDbZy9u
     image: {}
     video:
@@ -285,7 +278,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.3UU5GCTVeRDbZy9u'
-  - name: Paralyzed
+  - name: Paralizzato
     type: rule
     title:
       show: true
@@ -293,11 +286,11 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A paralyzed creature is @UUID[.TpkZgLfxCmSndmpb]{Incapacitated}
-        and can’t move or speak.</li><li>The creature automatically fails
-        Strength and Dexterity saving throws.</li><li>Attack rolls against the
-        creature have advantage.</li><li>Any attack that hits the creature is a
-        critical hit if the attacker is within 5 feet of the creature.</li></ul>
+        <ul><li>Una creatura paralizzata è @UUID[.TpkZgLfxCmSndmpb]{Incapacitata} 
+        e non può muoversi o parlare.</li>
+        <li>La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.</li>
+        <li>I tiri per colpire contro la creatura ottengono vantaggio.</li>
+        <li>Ogni attacco che colpisce la creatura è un colpo critico se l'attaccante è situato entro 1,5 metri dalla creatura.</li></ul>
       markdown: ''
     _id: xnSV5hLJIMaTABXP
     image: {}
@@ -321,14 +314,20 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.xnSV5hLJIMaTABXP'
-  - name: Petrified
+  - name: Pietrificato
     type: rule
     title:
       show: true
       level: 2
     text:
       format: 1
-      content: "<ul><li>A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.</li><li>The creature is @UUID[.TpkZgLfxCmSndmpb]{Incapacitated},\_can’t move or speak, and is unaware of its surroundings.</li><li>Attack rolls against the creature have advantage.</li><li>The creature automatically fails Strength and Dexterity saving throws.</li><li>The creature has resistance to all damage.</li><li>The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</li></ul>"
+      content: "<ul><li>Una creatura pietrificata viene trasformata, assieme a ogni oggetto non magico che stia trasportando o indossando,
+      in una sostanza solida inanimata (solitamente la pietra). La creatura cessa di invecchiare e il suo peso viene decuplicato.</li>
+      <li>La creatura è @UUID[.TpkZgLfxCmSndmpb]{Incapacitata}, non può muoversi o parlare e non è consapevole di ciò che accade attorno a lei.</li>
+      <li>I tiri per colpire contro la creatura ottengono vantaggio.</li>
+      <li>La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.</li>
+      <li>La creatura dispone di resistenza a tutti i danni.</li>
+      <li>La creatura è immune ai veleni e alle malattie, ma gli eventuali veleni o malattie già presenti nel suo sistema vengono solo sospesi, non neutralizzati.</li></ul>"
       markdown: ''
     _id: xaNDaW6NwQTgHSmi
     image: {}
@@ -352,7 +351,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.xaNDaW6NwQTgHSmi'
-  - name: Poisoned
+  - name: Avvelenato
     type: rule
     title:
       show: true
@@ -360,8 +359,7 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A poisoned creature has disadvantage on attack rolls and ability
-        checks.</li></ul>
+        <ul><liUna creatura avvelenata subisce svantaggio ai tiri per colpire e alle prove di caratteristica.</li></ul>
     _id: lq3TRI6ZlED8ABMx
     image: {}
     video:
@@ -384,7 +382,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.lq3TRI6ZlED8ABMx'
-  - name: Prone
+  - name: Prono
     type: rule
     title:
       show: true
@@ -392,11 +390,9 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A prone creature's only movement option is to crawl, unless it
-        stands up and thereby ends the condition.</li><li>The creature has
-        disadvantage on attack rolls.</li><li>An attack roll against the
-        creature has advantage if the attacker is within 5 feet of the creature.
-        Otherwise, the attack roll has disadvantage.</li></ul>
+        <ul><li>L'unica opzione di movimento di una creatura prona è strisciare, a meno che non si rialzi in piedi, ponendo in quel modo fine alla sua condizione.</li>
+        <li>La creatura subisce svantaggio ai tiri per colpire.</li>
+        <li>Un tiro per colpire contro la creatura ottiene vantaggio se l'attaccante si trova entro 1,5 metri dalla creatura. Altrimenti, il tiro per colpire subisce svantaggio.</li></ul>
     _id: y0TkcdyoZlOTmAFT
     image: {}
     video:
@@ -419,7 +415,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.y0TkcdyoZlOTmAFT'
-  - name: Restrained
+  - name: Trattenuto
     type: rule
     title:
       show: true
@@ -427,11 +423,9 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A restrained creature's speed becomes 0, and it can't benefit
-        from any bonus to its speed.</li><li>Attack rolls against the creature
-        have advantage, and the creature's attack rolls have
-        disadvantage.</li><li>The creature has disadvantage on Dexterity saving
-        throws.</li></ul>
+        <ul><li>La velocità di una creatura trattenuta diventa 0 e non può beneficiare di alcun bonus alla velocità.</li>
+        <li>I tiri per colpire contro la creatura ottengono vantaggio, mentre i tiri per colpire della creatura subiscono svantaggio.</li>
+        <li>La creatura subisce svantaggio ai tiri salvezza su Destrezza.</li></ul>
     _id: cSVcyZyNe2iG1fIc
     image: {}
     video:
@@ -454,7 +448,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.cSVcyZyNe2iG1fIc'
-  - name: Stunned
+  - name: Stordito
     type: rule
     title:
       show: true
@@ -462,10 +456,9 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>A stunned creature is @UUID[.TpkZgLfxCmSndmpb]{Incapacitated},
-        can’t move, and can speak only falteringly.</li><li>The creature
-        automatically fails Strength and Dexterity saving throws.</li><li>Attack
-        rolls against the creature have advantage.</li></ul>
+        <ul><li>Una creatura stordita è @UUID[.TpkZgLfxCmSndmpb]{Incapacitata}, non può muoversi e può parlare soltanto a fatica.</li>
+        <li>La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.</li>
+        <li>I tiri per colpire contro la creatura ottengono vantaggio.</li></ul>
       markdown: ''
     _id: ZyZMUwA2rboh4ObS
     image: {}
@@ -489,7 +482,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.ZyZMUwA2rboh4ObS'
-  - name: Unconscious
+  - name: Privo di sensi
     type: rule
     title:
       show: true
@@ -497,13 +490,11 @@ pages:
     text:
       format: 1
       content: >-
-        <ul><li>An unconscious creature is
-        @UUID[.TpkZgLfxCmSndmpb]{Incapacitated}, can’t move or speak, and is
-        unaware of its surroundings</li><li>The creature drops whatever it’s
-        holding and falls prone.</li><li>The creature automatically fails
-        Strength and Dexterity saving throws.</li><li>Attack rolls against the
-        creature have advantage.</li><li>Any attack that hits the creature is a
-        critical hit if the attacker is within 5 feet of the creature.</li></ul>
+        <ul><li>Una creatura priva di sensi è @UUID[.TpkZgLfxCmSndmpb]{Incapacitata}, non può muoversi o parlare e non è consapevole di ciò che accade attorno a lei.</li>
+        <li>La creatura lascia cadere tutto ciò che impugnava e cade a terra prona.</li>
+        <li>La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.</li>
+        <li>I tiri per colpire contro la creatura ottengono vantaggio.</li>
+        <li>Ogni attacco che colpisce la creatura è un colpo critico se l'attaccante è situato entro 1,5 metri dalla creatura.</li></ul>
       markdown: ''
     _id: UWw13ISmMxDzmwbd
     image: {}
@@ -527,7 +518,7 @@ pages:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!journal.pages!w7eitkpD7QQTB6j0.UWw13ISmMxDzmwbd'
-  - name: Exhaustion
+  - name: Indebolimento
     type: rule
     title:
       show: true
@@ -535,28 +526,20 @@ pages:
     text:
       format: 1
       content: >-
-        <p>Some special abilities and environmental hazards, such as starvation
-        and the long-term effects of freezing or scorching temperatures, can
-        lead to a special condition called exhaustion. Exhaustion is measured in
-        six levels. An effect can give a creature one or more levels of
-        exhaustion, as specified in the effect’s description.</p><table
-        border="0"><thead><tr><td>Level</td><td>Effect</td></tr></thead><tbody><tr><td>1</td><td>Disadvantage
-        on ability checks</td></tr><tr><td>2</td><td>Speed
-        halved</td></tr><tr><td>3</td><td>Disadvantage on attack rolls and
-        saving throws</td></tr><tr><td>4</td><td>Hit point maximum
-        halved</td></tr><tr><td>5</td><td>Speed reduced to
-        0</td></tr><tr><td>6</td><td>Death</td></tr></tbody></table><p>If an
-        already exhausted creature suffers another effect that causes
-        exhaustion, its current level of exhaustion increases by the amount
-        specified in the effect’s description.</p><p>A creature suffers the
-        effect of its current level of exhaustion as well as all lower levels.
-        For example, a creature suffering level 2 exhaustion has its speed
-        halved and has disadvantage on ability checks.</p><p>An effect that
-        removes exhaustion reduces its level as specified in the effect’s
-        description, with all exhaustion effects ending if a creature’s
-        exhaustion level is reduced below 1.</p><p>Finishing a long rest reduces
-        a creature’s exhaustion level by 1, provided that the creature has also
-        ingested some food and drink.</p>
+        <p>Alcune capacità speciali e pericoli ambientati, come la fame e gli effetti a lungo termine 
+        delle temperature gelide o roventi, possono indurre una condizione speciale chiamata indebolimento.
+        L'indebolimento è misurato in sei livelli. Un effetto può imporre a una creatura uno o più lìvelli di 
+        indebolimento, come specificato nella descrizione dell'effetto.</p><table
+        border="0"><thead><tr><td>Livello</td><td>Effetto</td></tr></thead><tbody><tr><td>1</td><td>Svantaggio alle prove di caratteristica</td>
+        </tr><tr><td>2</td><td>Velocità dimezzata</td></tr><tr><td>3</td><td>Svantaggio ai tiri per colpire e ai tiri salvezza</td>
+        </tr><tr><td>4</td><td>Massimo dei punti ferita dimezzato</td></tr><tr><td>5</td><td>Velocità ridotta a 0</td></tr><tr>
+        <td>6</td><td>Morte</td></tr></tbody></table><p>Se una creatura già sotto l'effetto di indebolimento subisce un ulteriore effetto di indebolimento, il suo attuale 
+        livello di indebolimento aumenta dell'ammontare specificato nella descrizione dell'effetto.</p>
+        <p>Una creatura subisce l'effetto del suo attuale livello di indebolimento nonchè quelli relativi a tutti i livelli inferiori.
+        Per esempio, se una creatura subisce un livello 2 di indebolimento, la sua velocità è dimezzata e le sue prove di caratteristica 
+        subiscono svantaggio.</p><p>Un effetto che rimuove l'indebolimento riduce il suo livello come specificato nella descrizlone dell'effetto;
+        se il livello di indebolimento di una creatura scende a meno di 1, tutti gli effetti di indebolimento terminano per quella creatura.</p>
+        <p>Completando un riposo lungo, una creatura riduce di 1 il suo livello di Indebolimento, purché abbia anche avuto modo di mangiare e bere qualcosa.</p>
     _id: cspWveykstnu3Zcv
     image: {}
     video:
