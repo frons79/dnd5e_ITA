@@ -112,7 +112,7 @@
   "packs": [
     {
       "name": "heroes",
-      "label": "Starter Heroes",
+      "label": "Eroi di partenza",
       "system": "dnd5e",
       "path": "packs/heroes",
       "type": "Actor",
@@ -125,7 +125,7 @@
     },
     {
       "name": "monsters",
-      "label": "Monsters (SRD)",
+      "label": "Mostri (SRD)",
       "system": "dnd5e",
       "path": "packs/monsters",
       "type": "Actor",
@@ -138,7 +138,7 @@
     },
     {
       "name": "items",
-      "label": "Items (SRD)",
+      "label": "Oggetti (SRD)",
       "system": "dnd5e",
       "path": "packs/items",
       "type": "Item",
@@ -151,7 +151,7 @@
     },
     {
       "name": "tradegoods",
-      "label": "Trade Goods (SRD)",
+      "label": "Merci di scambio (SRD)",
       "system": "dnd5e",
       "path": "packs/tradegoods",
       "type": "Item",
@@ -164,7 +164,7 @@
     },
     {
       "name": "spells",
-      "label": "Spells (SRD)",
+      "label": "Incantesimi (SRD)",
       "system": "dnd5e",
       "path": "packs/spells",
       "type": "Item",
@@ -191,7 +191,7 @@
     },
     {
       "name": "classes",
-      "label": "Classes (SRD)",
+      "label": "Classi (SRD)",
       "system": "dnd5e",
       "path": "packs/classes",
       "type": "Item",
@@ -204,7 +204,7 @@
     },
     {
       "name": "subclasses",
-      "label": "Subclasses (SRD)",
+      "label": "Sottoclassi (SRD)",
       "system": "dnd5e",
       "path": "packs/subclasses",
       "type": "Item",
@@ -217,7 +217,7 @@
     },
     {
       "name": "classfeatures",
-      "label": "Class & Subclass Features (SRD)",
+      "label": "Tratti di Classe e Sottoclasse (SRD)",
       "system": "dnd5e",
       "path": "packs/classfeatures",
       "type": "Item",
@@ -230,7 +230,7 @@
     },
     {
       "name": "races",
-      "label": "Races (SRD)",
+      "label": "Razze (SRD)",
       "system": "dnd5e",
       "path": "packs/races",
       "type": "Item",
@@ -256,7 +256,7 @@
     },
     {
       "name": "rules",
-      "label": "Rules (SRD)",
+      "label": "Regole (SRD)",
       "system": "dnd5e",
       "path": "packs/rules",
       "type": "JournalEntry",
@@ -269,7 +269,7 @@
     },
     {
       "name": "tables",
-      "label": "Tables (SRD)",
+      "label": "Tabelle (SRD)",
       "system": "dnd5e",
       "path": "packs/tables",
       "type": "RollTable",
@@ -327,6 +327,12 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json",
       "flags": {}
     }
   ],
